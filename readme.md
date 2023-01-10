@@ -1,6 +1,6 @@
 
 # Have Ferrari Sacked Their Team Principal Today 
-This purpose of this project is to build a website which runs on Flask and implements webscraping to update its content.
+This purpose of this project is to build a website which scrapes the [Scuderia Ferrari](https://en.wikipedia.org/wiki/Scuderia_Ferrari) Wikipedia to determine if there has been a change in team principal. The website runs on Flask and implements Beautiful Soup to update the contents of the page.
 
 The deployment of the website is available at the following links with a screenshot displayed below:
 
