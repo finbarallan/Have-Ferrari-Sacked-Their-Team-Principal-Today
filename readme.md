@@ -9,7 +9,7 @@ The deployment of the website is available at the following links with a screens
 
 ![Deployment Screenshot](static/images/deployment.png)
 
-## Description % Implementation
+## Description & Implementation
 
 Beautiful Soup is implemented to scrape the Scuderia Ferrari Wikipedia page to find their team principal. The webpage of the team principal is then scraped to access the required information such their name and the image with the hover over effect.
 
