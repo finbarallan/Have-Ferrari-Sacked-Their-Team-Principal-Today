@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500&display=swap');
-
 body {
     font-family: 'Red Hat Text', sans-serif;
 }
@@ -7,7 +6,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 32px;
+    margin-bottom: 4px;
 }
 header img {
     height: 100px;
@@ -25,7 +25,7 @@ h2 {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 10px;
 }
 #rest {
@@ -37,7 +37,6 @@ h2 {
     margin-right: 10px;
     border-radius: 10px;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/templates/images/leclerc.jpeg");
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,9 +79,6 @@ h2 {
 	opacity: 0;
 	transition: opacity 0.2s;
 }
-#image_overlay--blur {
-	backdrop-filter: blur(5px);
-}
 #image_overlay>* {
 	transform: translateX(-10px);
 	transition: transform 0.2s;
@@ -104,12 +100,10 @@ h2 {
 .image_description {
     font-size: 20px;
     color: white;
-    padding-top: 0px;
     padding-bottom: 15px;
     padding-left: 10px;
     padding-right: 10px;
 }
-
 #desc {
     height: min-content;
     width: 420px;
@@ -129,17 +123,11 @@ h2 {
 	font-size: 24px;
     color: black;
     text-align: left;
-    padding-top: 0px;
     padding-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
 }
 .desc_description {
     font-size: 16px;
     color: black;
     text-align: justify;
-    padding-top: 0px;
     padding-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
 }

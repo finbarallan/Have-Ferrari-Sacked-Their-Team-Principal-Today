@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>#rest{background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("{{ url_for('static',filename='images/leclerc.jpeg') }}");}</style>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/reset.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}">
     <title>Who's the Boss?</title>
@@ -11,7 +12,7 @@
 <body>
     <header>
         <div>
-            <img src="/templates/images/scuderia.png" alt="Scuderia Ferrari Logo">
+            <img src="{{ url_for('static',filename='images/scuderia.png') }}" alt="Scuderia Ferrari Logo">
         </div>
         <h1>Have Ferrari Sacked Their Team Principal Today?</h1>
     </header>
@@ -25,9 +26,9 @@
             <img id="image_img" src="{{ image }}" alt="Scuderia Ferrari Team Principal">
             <div id="image_overlay">
                 <h3 class="image_title">{{name}}</h3>
-                <p class="image_description">is the current Team Principal of Scuderia Ferrari.</p>
+                <p class="image_description">is the current Team Principal of Scuderia Ferrari</p>
                 <h3 class="image_title">{{days}} days</h3>
-                <p class="image_description">have passed since the sacking of a team principal.</p>
+                <p class="image_description">have passed since the sacking of a team principal</p>
             </div>
         </div>
         <div id="desc">
@@ -55,14 +56,25 @@
     </div>
 </body>
 <script>
-// <h1>Ferrari</h1>
-// <h2>{{name}}</h2>
-// <h2><img id="img" src="https://{{image}}"></h2>
-// <h2>{{status}}</h2>
-// <h2>{{days}}</h2>
-//
-// <div id="info">
-//             <p>Frédéric Vasseur has been Ferrari team principal for 72 days</p>
-//         </div>
+    // Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, maiores explicabo 
+    // sint eligendi, itaque ab impedit esse exercitationem ducimus voluptas laborum consectetur 
+    // cum dolores quod perspiciatis. Incidunt ea dolorum iure. Lorem ipsum dolor sit amet consectetur, 
+    // adipisicing elit. Optio, maiores explicabo sint eligendi, itaque ab impedit esse exercitationem 
+    // ducimus voluptas laborum consectetur cum dolores quod perspiciatis. Incidunt ea dolorum iure.
+    // Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, maiores explicabo 
+    // sint eligendi, itaque ab impedit esse exercitationem ducimus voluptas laborum consectetur 
+    // cum dolores quod perspiciatis. Incidunt ea dolorum iure. Lorem ipsum dolor sit amet consectetur, 
+    // adipisicing elit. Optio, maiores explicabo sint eligendi, itaque ab impedit esse exercitationem 
+    // ducimus voluptas laborum consectetur cum dolores quod perspiciatis. Incidunt ea dolorum iure.
+    // Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, maiores explicabo 
+    // sint eligendi, itaque ab impedit esse exercitationem ducimus voluptas laborum consectetur 
+    // cum dolores quod perspiciatis. Incidunt ea dolorum iure. Lorem ipsum dolor sit amet consectetur, 
+    // adipisicing elit. Optio, maiores explicabo sint eligendi, itaque ab impedit esse exercitationem 
+    // ducimus voluptas laborum consectetur cum dolores quod perspiciatis. Incidunt ea dolorum iure.
+    // Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, maiores explicabo 
+    // sint eligendi, itaque ab impedit esse exercitationem ducimus voluptas laborum consectetur 
+    // cum dolores quod perspiciatis. Incidunt ea dolorum iure. Lorem ipsum dolor sit amet consectetur, 
+    // adipisicing elit. Optio, maiores explicabo sint eligendi, itaque ab impedit esse exercitationem 
+    // ducimus voluptas laborum consectetur cum dolores quod perspiciatis. Incidunt ea dolorum iure.
 </script>
 </html>

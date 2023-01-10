@@ -19,7 +19,7 @@ image_url = prefix + image_ref["href"]
 image_html = requests.get(image_url)
 image_wiki = BeautifulSoup(image_html.text, "html.parser")
 image_link = image_wiki.find(class_="fullImageLink").find("a")
-image = image_link["href"][2:]
+image = "https:" + image_link["href"]
 
 tday = datetime.date.today()
 principal = {'Mattia Binotto': datetime.date(2019,1,7), 'Frédéric Vasseur': datetime.date(2022,12,13)}
